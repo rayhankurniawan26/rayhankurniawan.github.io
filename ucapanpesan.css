@@ -1,0 +1,29 @@
+
+h2{
+    text-align: center;
+    color: white;
+}
+img{
+    padding-left: 38vw;
+    margin-top: 50px;
+}
+button{
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 215px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 60px;
+    background: #e7a137;
+    box-shadow: black 2px 2px 2px 1px;
+}
+button:hover{
+    background: #8d5a0e;
+}
+a{
+    padding: 10px;
+    margin: 5px 535px;
+}

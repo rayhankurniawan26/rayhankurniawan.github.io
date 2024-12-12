@@ -1,0 +1,71 @@
+body{
+    background-color: #6D2424;
+    background-size: cover;
+    margin: 0;
+}
+header{
+    display: flex;
+    gap: 89px;
+    background-color: #451414;
+    padding: 15px 10px 10px 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.isi{
+    display: grid;
+}
+.logo{
+    display: flex;
+    border: none;
+    outline: none;
+    padding: 5px 5px 5px 9px;
+    border-radius: 60px;
+    background: white;
+    box-shadow: black 3px 3px 3px 2px;
+}
+.logo::after{
+    content: "Roti Bakar Jaya";
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin-top: 4px;
+}
+.bakar{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 50px;
+}
+#dim{
+    margin-left: 55vw;
+}
+.bg{
+    display: flex;
+    column-gap: 15px;
+    background-color: #795723;
+}
+.teks{
+    display: grid;
+    font-size: 20px;
+    color: white   ;
+}
+.citarasa{
+    color: white;
+    font-size: 22px;
+}
+input{
+    border-radius: 50px;
+    width: 35vw;
+    height: 30px;
+    background-color: rgba(128,128,128, 0.27);
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.ion-icon{
+    width: 30px;
+    height: 40px;
+}

@@ -1,0 +1,97 @@
+body{
+    background-color: #6D2424;
+    background-size: cover;
+    margin: 0;
+}
+header{
+    display: flex;
+    gap: 1100px;
+    background-color: #451414;
+    padding: 15px 10px 10px 10px;
+}
+.logo{
+    display: flex;
+    border: none;
+    outline: none;
+    padding: 5px 5px 5px 9px;
+    border-radius: 60px;
+    background: white;
+    box-shadow: black 3px 3px 3px 2px;
+}
+.logo::after{
+    content: "Roti Bakar Jaya";
+    font-size: 20px;
+    color: black;
+    margin-top: 4px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.bos{
+    display: flex;
+    margin-top: 10px;
+}
+.image{
+    display: flex;
+    padding: 25px 25px 0 25px;
+}
+#Coklat{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+#smk{
+    background-color: #e7a137;
+}
+#I{
+    box-shadow: black 2px 1px 1px 1px;
+    border-radius: 20px;
+}
+.alamat{
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 60px;
+    background:#424141;
+    box-shadow: black 2px 2px 2px 1px;
+}
+#Tunai{
+    display: flex;
+    border: none;
+    outline: none;
+    padding: 5px 5px 5px 9px;
+    border-radius: 60px;
+    background: #424141;
+    width: 400px;
+    box-shadow: black 2px 2px 2px 1px;
+}
+.rician{
+    padding-left: 40px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 150px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 60px;
+    background: #e7a137;
+    box-shadow: black 2px 2px 2px 1px;
+}
+button:hover{
+    background: #8d5a0e;
+}
+#btn{
+    padding-left: 25px;
+}

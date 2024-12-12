@@ -1,0 +1,100 @@
+body{
+    background-color: #6D2424;
+    background-size: cover;
+    margin: 0;
+}
+header{
+    display: flex;
+    gap: 80px;
+    background-color: #451414;
+    padding: 15px 10px 10px 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.logo{
+    display: flex;
+    border: none;
+    outline: none;
+    padding: 5px 5px 5px 9px;
+    border-radius: 60px;
+    background: white;
+    box-shadow: black 3px 3px 3px 2px;
+}
+.logo::after{
+    content: "Roti Bakar Jaya";
+    font-size: 20px;
+    color: black;
+    margin-top: 4px;
+}
+.Bos{
+    display: flex;
+    margin-top: 12px;
+    column-gap: 50px;
+}
+.dz{
+    padding: 25px 25px 0 25px ;
+    display: flex;
+}
+#aku{
+    padding: 25px;
+    color: white;
+}
+#peh{
+    margin-left: 65vw;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 150px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 60px;
+    background: #e7a137;
+    box-shadow: black 2px 2px 2px 1px;
+}
+button:hover{
+    background: #8d5a0e;
+}
+.dora{
+    padding: 0 25px 0px 25px;
+    display: flex;
+    row-gap: 20px;
+}
+#st{
+    padding: 25px;
+    color: white;
+}
+.dimz{
+    display: grid;
+    row-gap: 15px;
+}
+.matcha{
+    padding: 0 25px 0px 25px;
+    display: flex;
+    row-gap: 20px;
+}
+#lip{
+    padding: 25px;
+    color: white;
+}
+#M{
+    border-radius: 15px;
+    box-shadow: black 2px 2px 2px 1px;
+}
+#C{
+    border-radius: 15px;
+    box-shadow: black 2px 2px 2px 1px;
+}
+#S{
+    border-radius: 15px;
+    box-shadow: black 2px 2px 2px 1px;
+}
+.kembali{
+    padding: 0px 25px 25px 25px;
+}
